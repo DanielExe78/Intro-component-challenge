@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="section--1">
+        <div class="intro">
+          <h1>Learn to code by watching others</h1>
+
+          <p>
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+
+        <div class="joined">
+          <div class="form-title">
+            <p>
+              <span class="try">Try it free 7 days</span> then $20/mo.
+              thereafter
+            </p>
+          </div>
+
+          <div class="grid">
+            <form class="form">
+              <input class="input1 gen" placeholder=" First Name" type="text" />
+              <span id="NameSpan" class="minText hidden"
+                >First Name cannot be empty</span
+              >
+              <input class="input2 gen" placeholder=" Last Name" type="text" />
+              <span id="lastSpan" class="minText hidden"
+                >Last name cannot be empty</span
+              >
+              <input
+                class="input3 gen"
+                placeholder=" Email Address"
+                type="email"
+              />
+              <span id="mailSpan" class="minText hidden"
+                >Looks like this is not an email</span
+              >
+              <input
+                class="input4 gen"
+                placeholder=" Password"
+                type="password"
+              />
+              <span id="passSpan" class="minText hidden"
+                >Password cannot be empty</span
+              >
+
+              <div class="claim-button">
+                <button class="button">CLAIM YOUR FREE TRIAL</button>
+              </div>
+
+              <p>
+                By clicking the button, you are agreeing to our
+                <span>Terms and Services</span>
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/DanielExe78">Daniel Parra</a>.
+      </p>
+    </footer>
+  </body>
+</html>
